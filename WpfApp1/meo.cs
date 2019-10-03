@@ -8,15 +8,14 @@ namespace WpfApp1
 {
     class Meo : DongVat
     {
-        class Meo : DongVat
-        {
-            public override void Talk()
-            {
-                base.Talk();
-            }
-        }
-    }
 
+        public override void Talk()
+        {
+            base.Talk();
+        }
+
+    }
+}
 
 
 

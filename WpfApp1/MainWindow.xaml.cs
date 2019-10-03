@@ -27,16 +27,20 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            {
-                Cho cho = new Cho();
-                cho.DongvatKeu = "Gâu gâu";
-                cho.MauLong = "Vàng";
-                cho.Talk();
-                Meo meo = new Meo();
-                meo.DongvatKeu = "Meo meo";
-                meo.MauLong = "Trắng";
-                meo.Talk();
-            }
+
+            Cho cho = new Cho();
+            cho.DongvatKeu = "Gâu gâu";
+            cho.MauLong = "Vàng";
+            cho.Talk();
+        }
+              
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            Meo meo = new Meo();
+            meo.DongvatKeu = "Meo meo";
+            meo.MauLong = "Trắng";
+            meo.Talk();
         }
     }
 }

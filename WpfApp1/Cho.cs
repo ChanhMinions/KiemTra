@@ -8,12 +8,11 @@ namespace WpfApp1
 {
         class Cho : DongVat
         {
-            class Cho : DongVat
-            {
+        
                 public override void Talk()
                 {
                     base.Talk();
                 }
-            }
+            
         }
 }
